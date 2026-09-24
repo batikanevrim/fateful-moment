@@ -1,13 +1,17 @@
 {
   "expo": {
-    "name": "fateful-moment",
+    "name": "Fateful Moment",
     "slug": "fateful-moment",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
+    "scheme": "fateful-moment",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#020617",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "bundleIdentifier": "com.btkn14.fateful-moment"
     },
     "android": {
       "adaptiveIcon": {
@@ -16,10 +20,24 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
+      "package": "com.btkn14.fatefulmoment",
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router",
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "DEFAULT"
+        }
+      ],
+      "expo-video",
+      "expo-asset"
+    ]
   }
 }

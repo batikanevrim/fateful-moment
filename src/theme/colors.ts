@@ -1,0 +1,16 @@
+export const colors = {
+  primary: "#00D3F3",
+  secondary: "#0F172A",
+  accent: "#FB2C36",
+  background: "#020617",
+  border: "#1D293D",
+  text: "#F1F5F9",
+  textMuted: "#94A3B8",
+  primaryDisabled: "#0E4C57",
+  onPrimary: "#020617",
+  onAccent: "#FFFFFF",
+  surface: "#0F172A",
+  beaconRed: "#FB2C36",
+  beaconCyan: "#00D3F3",
+  beaconGreen: "#22C55E",
+} as const;
