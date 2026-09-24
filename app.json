@@ -38,6 +38,12 @@
       ],
       "expo-video",
       "expo-asset"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0b2467be-bc78-4697-980a-9ffab41eb768"
+      }
+    }
   }
 }
